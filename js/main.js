@@ -3,10 +3,10 @@ document.addEventListener('DOMContentLoaded', function() {
     const guardianLoginBtn = document.getElementById('guardianLogin');
 
     userLoginBtn.addEventListener('click', function() {
-        window.location.href = 'user_login.html';
+        window.location.href = 'public/user_login.html';
     });
 
     guardianLoginBtn.addEventListener('click', function() {
-        window.location.href = 'guardian_login.html';
+        window.location.href = 'public/guardian_login.html';
     });
 });
