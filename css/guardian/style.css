@@ -1,0 +1,206 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 400px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 0;
+}
+
+header {
+    background: rgba(255, 201, 62, 1);
+    padding: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+header h1 {
+    font-size: 20px;
+    color: #000;
+    margin: 0;
+    line-height: 1.5;
+}
+
+main {
+    padding: 20px;
+}
+
+main ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+main ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid rgba(217, 217, 217, 0.8);
+}
+
+main ul li span {
+    display: flex;
+    align-items: center;
+}
+
+main ul li img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+main ul li .name {
+    font-weight: bold;
+    color: #000;
+}
+
+main ul li .role {
+    font-size: 12px;
+    color: #888;
+}
+
+main ul li .status {
+    font-size: 12px;
+    color: #888;
+}
+
+main button {
+    width: 100%;
+    padding: 15px 0;
+    background: rgba(255, 201, 62, 1);
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background 0.3s;
+}
+
+main button:hover {
+    background: rgba(255, 201, 62, 0.8);
+}
+
+/* 기존 스타일 포함 */
+
+.chat-container {
+    width: 90%;
+    max-width: 400px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    overflow: hidden;
+}
+
+header {
+    background: rgba(255, 201, 62, 1);
+    padding: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+header h1 {
+    font-size: 20px;
+    color: #000;
+    margin: 0;
+    line-height: 1.5;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+main .message {
+    margin: 10px 0;
+    display: flex;
+    align-items: flex-start;
+}
+
+main .message.user {
+    justify-content: flex-end;
+}
+
+main .message.bot {
+    justify-content: flex-start;
+}
+
+main .message .text {
+    max-width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+main .message.user .text {
+    background: rgba(255, 236, 187, 1);
+    color: #000;
+}
+
+main .message.bot .text {
+    background: rgba(217, 217, 217, 0.8);
+    color: #000;
+}
+
+footer {
+    display: flex;
+    padding: 20px;
+    border-top: 1px solid rgba(217, 217, 217, 0.8);
+}
+
+footer input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid rgba(217, 217, 217, 0.8);
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+footer button {
+    padding: 10px 20px;
+    background: rgba(255, 201, 62, 1);
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+footer button:hover {
+    background: rgba(255, 201, 62, 0.8);
+}
+/* 기존 스타일 포함 */
+
+.return-button {
+    width: 100%;
+    padding: 15px 0;
+    background: rgba(255, 201, 62, 1);
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+.return-button:hover {
+    background: rgba(255, 201, 62, 0.8);
+}

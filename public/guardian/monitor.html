@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>유저 모니터링</title>
+    <link rel="stylesheet" href="../../css/guardian/monitor.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="left-nav">
+                    <img src="../../asset/home.png" alt="Home" id="homeIcon">
+                    <h1>유정순 <span>어머님</span></h1>
+                </div>
+                <img src="../../asset/setting.png" alt="Settings" id="settingsIcon">
+            </nav>
+        </header>
+        <main>
+            <div class="card" onclick="location.href='health.html'">
+                <div class="card-content">
+                    <div>
+                        <p class="subtitle">건강이 제일!</p>
+                        <p class="title"><span id="todayDate1"></span></p>
+                        <p class="title">부모님 건강 레포트</p>
+                    </div>
+                    <img src="../../asset/guardiance-report.png" alt="Health Report">
+                </div>
+            </div>
+            <div class="card" onclick="location.href='schedule.html'">
+                <div class="card-content">
+                    <div>
+                        <p class="subtitle">부모님의 하루는?</p>
+                        <p class="title"><span id="todayDate2"></span> 
+                        <p class="title">부모님 일정 리스트</p>
+                    </div>
+                    <img src="../../asset/guardiance-schedule.png" alt="Schedule">
+                </div>
+            </div>
+            <div class="card history" onclick="location.href='history.html'">
+                <p class="title small-title">아르미 접속 기록 확인 >>></p>
+            </div>
+        </main>
+    </div>
+    <script src="../../js/guardian/monitor.js"></script>
+</body>
+</html>

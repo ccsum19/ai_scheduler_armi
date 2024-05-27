@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+
+.container {
+    width: 90%;
+    max-width: 400px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+header {
+    background: rgba(255, 201, 62, 1);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+nav img {
+    width: 13px;
+    height: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+header h1 {
+    font-size: 18px;
+    color: #000;
+    margin: 0;
+    margin-left: 10px;
+    line-height: 1.5;
+}
+
+main {
+    padding: 20px;
+}
+
+.report {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.report-item {
+    background: #f8f8f8;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;
+}
+
+.report-item p {
+    margin: 5px 0;
+}
+
+.report-item .value {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.report-item .subvalue {
+    font-size: 14px;
+    color: #888;
+}
+
+.chart {
+    margin-bottom: 20px;
+}
+
+.chart img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.doctor-note {
+    background: #f0f0f0;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.doctor-note p:first-child {
+    font-weight: bold;
+    margin: 0 0 5px;
+}
+
+.doctor-note p:last-child {
+    margin: 0;
+}

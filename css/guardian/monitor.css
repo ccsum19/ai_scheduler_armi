@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+
+.container {
+    width: 90%;
+    max-width: 400px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+header {
+    background: rgba(255, 201, 62, 1);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.left-nav {
+    display: flex;
+    align-items: center;
+}
+
+.left-nav img, nav img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+header h1 {
+    font-size: 20px;
+    color: #000;
+    margin: 0;
+    margin-left: 10px; /* Adjust margin to space out home icon and title */
+}
+
+header h1 span {
+    font-size: 14px;
+    color: #888;
+}
+
+main {
+    padding: 20px;
+}
+
+.card {
+    background: rgba(255, 236, 187, 1);
+    padding: 5cqw;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.card-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card img {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.card:hover {
+    background: rgba(255, 201, 62, 1);
+}
+
+.card p.title {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.card p.subtitle {
+    font-size: 14px;
+    color: #c31313;
+    margin: 0;
+    margin-bottom: 3px;
+}
+
+.card.history {
+    background: rgba(255, 201, 62, 1);
+    padding: 2cqw;
+    cursor: pointer;
+}
+
+.card.history:hover {
+    background: rgb(255, 240, 202);
+}
+
+.card p.small-title {
+    font-size: 14px;
+    color: #888;
+    margin: 0;
+    text-align: center;
+}

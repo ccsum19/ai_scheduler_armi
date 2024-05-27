@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+
+.container {
+    width: 90%;
+    max-width: 400px;
+    margin: 0 auto;
+    background: #fff;
+    text-align: center;
+}
+
+header {
+    background: rgba(255, 201, 62, 1);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-align: left;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+nav img {
+    width: 13px;
+    height: 20px;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+header h1 {
+    font-size: 18px;
+    color: #000;
+    margin: 0;
+    line-height: 1.5;
+}
+
+header h1 span {
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+}
+
+main {
+    padding: 20px;
+}
+
+.prompt {
+    margin-bottom: 20px;
+}
+
+.prompt p {
+    font-size: 18px;
+    font-weight: bold;
+    background: #f8f8f8;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0;
+}
+
+.character {
+    margin-bottom: 20px;
+}
+
+.character img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons button {
+    padding: 20px 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #f8f8f8;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+    width: 45%;
+}
+
+.buttons button:hover {
+    background: rgba(255, 201, 62, 0.8);
+}
+

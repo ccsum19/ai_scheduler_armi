@@ -1,0 +1,117 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    text-align: center;
+}
+
+.container {
+    padding-top: 20%;
+}
+
+h1 {
+    font-size: 5vw; /* 화면 너비의 5% */
+    color: black;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 4vw; /* 화면 너비의 4% */
+    color: black;
+    margin-bottom: 30px;
+}
+
+.yellow {
+    color: #FFC93E;
+}
+
+.mode-box {
+    width: 80%; /* 화면 너비의 80% */
+    max-width: 300px; /* 최대 너비 */
+    margin: 10px auto;
+    padding: 15px;
+    background-color: rgba(217, 217, 217, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.mode-description {
+    text-align: center;
+    color: black;
+    font-size: 4vw; /* 화면 너비의 4% */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.login-button {
+    width: 100%;
+    padding: 10px; /* 여유로운 터치 영역 */
+    background-color: #FFC93E;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 4vw; /* 화면 너비의 4% */
+}
+
+img {
+    width: 12vw; /* 화면 너비의 12% */
+    height: 12vw; /* 화면 너비의 12% */
+    max-width: 50px; /* 최대 너비 */
+    max-height: 50px; /* 최대 높이 */
+}
+
+/* 미디어 쿼리: 작은 화면 (모바일) */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 8vw;
+    }
+    h2 {
+        font-size: 6vw;
+    }
+    .mode-description {
+        font-size: 5vw;
+    }
+    .login-button {
+        font-size: 5vw;
+    }
+}
+
+/* 미디어 쿼리: 중간 화면 (태블릿) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    h1 {
+        font-size: 6vw;
+    }
+    h2 {
+        font-size: 5vw;
+    }
+    .mode-description {
+        font-size: 4.5vw;
+    }
+    .login-button {
+        font-size: 4.5vw;
+    }
+}
+
+/* 미디어 쿼리: 큰 화면 (데스크탑) */
+@media (min-width: 1025px) {
+    h1 {
+        font-size: 30px; /* 고정 크기 */
+    }
+    h2 {
+        font-size: 24px; /* 고정 크기 */
+    }
+    .mode-description {
+        font-size: 17px; /* 고정 크기 */
+    }
+    .login-button {
+        font-size: 15px; /* 고정 크기 */
+    }
+}

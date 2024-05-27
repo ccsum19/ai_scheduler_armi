@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>일정 추가</title>
+    <link rel="stylesheet" href="../../../css/guardian/add_schedule.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>부모님의 일정을 추가해봐요</h1>
+        </header>
+        <main>
+            <form id="scheduleForm">
+                <div class="input-group">
+                    <label for="title">제목</label>
+                    <input type="text" id="title" name="title" placeholder="제목을 입력하세요">
+                </div>
+                <div class="input-group">
+                    <label for="date">날짜</label>
+                    <input type="date" id="date" name="date">
+                </div>
+                <div class="input-group">
+                    <label for="reminder">알림</label>
+                    <select id="reminder" name="reminder">
+                        <option value="10분 전">10분 전</option>
+                        <option value="30분 전">30분 전</option>
+                        <option value="1시간 전">1시간 전</option>
+                        <option value="1일 전">1일 전</option>
+                        <option value="1주일 전">1주일 전</option>
+                    </select>
+                </div>
+                <div class="button-group">
+                    <button type="button" id="cancelButton">취소</button>
+                    <button type="submit">확인</button>
+                </div>
+            </form>
+        </main>
+    </div>
+    <script src="../../../js/guardian/add_schedule.js"></script>
+</body>
+</html>

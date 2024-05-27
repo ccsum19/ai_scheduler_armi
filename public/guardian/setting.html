@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>설정</title>
+    <link rel="stylesheet" href="../../css/guardian/setting.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <img src="../../asset/back.png" alt="Back" id="backIcon">
+                <h1>설정</h1>
+            </nav>
+        </header>
+        <main>
+            <form>
+                <div class="setting-group">
+                    <p>손주 성별</p>
+                    <div class="gender-group">
+                        <input type="radio" id="grandson-male" name="grandson-gender" value="male">
+                        <label for="grandson-male">남성</label>
+                        <input type="radio" id="grandson-female" name="grandson-gender" value="female" checked>
+                        <label for="grandson-female">여성</label>
+                    </div>
+                </div>
+                <div class="setting-group">
+                    <p>알림 간격</p>
+                    <label for="reminder-interval">일정 시작하기</label>
+                    <p></p>
+                    <select id="reminder-interval" name="reminder-interval">
+                        <option value="10분">10분 전</option>
+                        <option value="30분">30분 전</option>
+                        <option value="1시간">1시간 전</option>
+                        <option value="1일">1일 전</option>
+                    </select>
+                </div>
+                <div class="setting-group">
+                    <p>알림음 크기</p>
+                    <input type="range" id="volume" name="volume" min="0" max="100">
+                </div>
+                <div class="setting-group">
+                    
+                    <p>글씨 크기</p>
+                    <input type="range" id="fontsize" name="fontsize" min="0" max="100">
+                </div>
+                <button type="submit">설정 적용</button>
+            </form>
+        </main>
+    </div>
+    <script src="../../js/guardian/setting.js"></script>
+</body>
+</html>

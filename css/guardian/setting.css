@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+
+.container {
+    width: 90%;
+    max-width: 400px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+header {
+    background: rgba(255, 201, 62, 1);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav img {
+    width: 13px;
+    height: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+header h1 {
+    font-size: 20px;
+    color: #000;
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.setting-group {
+    margin-bottom: 20px;
+}
+
+.setting-group p {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+
+.gender-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gender-group input {
+    display: none;
+}
+
+.gender-group label {
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #f8f8f8;
+    cursor: pointer;
+}
+
+.gender-group input:checked + label {
+    background: rgba(255, 201, 62, 1);
+    color: #fff;
+}
+
+.setting-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #f8f8f8;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.setting-group input[type="range"] {
+    width: 100%;
+}
+
+button {
+    width: 100%;
+    padding: 15px 0;
+    background: rgba(255, 201, 62, 1);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: rgba(255, 201, 62, 0.8);
+}
